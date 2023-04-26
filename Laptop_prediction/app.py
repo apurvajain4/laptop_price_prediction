@@ -4,12 +4,12 @@ from PIL import Image
 
 
 st.title("Laptop Prediction :rainbow:")
+
 image = Image.open('a.jpg')
 
-st.image(image, caption='Proud to Be Data Scientist')
 st.header("EM Laptops")
-st.text('Lets check what`s the best for you')
-st.text('Want to predict price of laptop then visit us')
+st.text('Want to predict price of laptop?')
+
 
 st.subheader("Let's Connect:-")
 st.text("LinkedIn:- ")
