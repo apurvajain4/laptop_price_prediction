@@ -1,11 +1,8 @@
 import streamlit as st
 import os
-from PIL import Image
-
 
 st.title("Laptop Prediction :rainbow:")
 
-image = Image.open('a.jpg')
 
 st.header("EM Laptops")
 st.text('Want to predict price of laptop?')
