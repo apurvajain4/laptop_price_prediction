@@ -30,7 +30,7 @@ def main():
 
     # Define the app layout
     st.title('Laptop Price Predictor')
-    st.write('Enter the specifications of the laptop to get a price prediction:sunglasses:')
+    st.write('Enter the specifications of the laptop to get a price prediction:')
 
     # Define the input fields
     rating = st.slider('Rating (out of 5)', 0.0, 5.0, 4.0, 0.1)
